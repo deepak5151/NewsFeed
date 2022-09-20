@@ -1,0 +1,30 @@
+.card {
+  min-height: 515px;
+}
+.card-title {
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.card-content {
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.card-secondary-content {
+  overflow: hidden;
+  line-height: 1.5;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.card-img-top {
+  height: 200px;
+}
