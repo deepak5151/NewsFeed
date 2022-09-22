@@ -1,43 +1,16 @@
 {
-  "name": "newsapp",
-  "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:5000",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-infinite-scroll-component": "^6.1.0",
-    "react-router-dom": "^6.4.1",
-    "react-scripts": "5.0.1",
-    "react-tooltip": "^4.2.21",
-    "react-top-loading-bar": "^2.3.1",
-    "web-vitals": "^3.0.2"
-  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "News Feed App",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node backend/server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Deepak Kapoor",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "request": "^2.88.2"
   }
 }
