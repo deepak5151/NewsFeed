@@ -1,5 +1,5 @@
 {
-  "name": "newsapp",
+  "name": "newsfeed",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:5000",
