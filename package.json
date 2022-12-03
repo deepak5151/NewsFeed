@@ -4,8 +4,7 @@
   "description": "News Feed App",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --force --prefix frontend && npm run build --prefix frontend"
+    "start": "node backend/server.js"
   },
   "author": "Deepak Kapoor",
   "license": "ISC",
